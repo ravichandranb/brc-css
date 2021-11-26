@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravi Chandran</title>
+    <link rel="stylesheet" href="css/external.css" />
+    <style>
+      * {
+        text-align: center;
+      }
+      h2 {
+        color: red;
+      }
+
+      p#hdrpara1 {
+        background-color: aqua;
+      }
+      .nav1 {
+        color: rgb(224, 11, 11);
+        background-color: rgb(240, 226, 98);
+      }
+      .header1 {
+        background-color: orange;
+        color: rgb(21, 24, 216);
+      }
+      .section1 {
+        color: tomato;
+        background-color: yellowgreen;
+      }
+      .article1 {
+        background-color: rgb(114, 228, 243);
+      }
+      [type="text"] {
+        color: orangered;
+        background-color: palegreen;
+      }
+      [value="False"] {
+        color: purple;
+        background-color: rgb(240, 226, 98);
+      }
+      .footer1 {
+        color: rgb(224, 51, 8);
+        background-color: palevioletred;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header1">
+      <table border="0" width="100%" id="hdrtbl" cellspacing="0">
+        <tr>
+          <td>
+            <image
+              src="images/css-image.jpg"
+              alt="CSS Image"
+              width="150"
+              height="100"
+            ></image>
+          </td>
+          <td>
+            <h1 style="color: yellow">தமிழ் வணக்கம்</h1>
+            <h2 id="hdr1">CSS Practice</h2>
+            <p style="font-size: large">
+              Click On each chapter below to know more
+            </p>
+          </td>
+          <td>
+            <p id="hdrpara1">
+              This page breifs <br />
+              my learnings about <br />Basic Styling Concepts
+            </p>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+    <section class="section1">
+      <table border="0" width="100%" id="scntbl" cellspacing="0">
+        <tr>
+          <td>
+            <p id="scnpara1">
+              <a href="types-of-styling.html" target="frame1"
+                >Types of Styling</a
+              >
+            </p>
+          </td>
+          <td>
+            <p id="scnpara2">
+              <a href="external-css.html" target="frame1">External CSS</a>
+            </p>
+          </td>
+          <td>
+            <p id="scnpara3">
+              <a href="internal-css.html" target="frame1">Internal CSS</a>
+            </p>
+          </td>
+          <td>
+            <p id="scnpara4">
+              <a href="in-line-css.html" target="frame1">In-Line CSS</a>
+            </p>
+          </td>
+          <td>
+            <p id="scnpara5">
+              <a href="syntax-of-css.html" target="frame1">Syntax of CSS</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <nav class="nav1">
+      <table border="0" width="100%" id="navtbl" cellspacing="0">
+        <tr>
+          <td width="15%">
+            <p id="navpara1">
+              <a href="selectors-css.html" target="frame1">Selectors in CSS</a>
+            </p>
+            <br />
+
+            <p id="navpara2">
+              <a href="type-selector.html" target="frame1">Type Selector</a>
+            </p>
+            <br />
+
+            <p id="navpara3">
+              <a href="universal-selector.html" target="frame1"
+                >Universal Selector</a
+              >
+            </p>
+            <br />
+
+            <p id="navpara4">
+              <a href="class-selector.html" target="frame1">Class Selector</a>
+            </p>
+            <br />
+
+            <p id="navpara5">
+              <a href="id-selector.html" target="frame1">ID Selector</a>
+            </p>
+            <br />
+
+            <p id="navpara6">
+              <a href="attribute-selector.html" target="frame1"
+                >Attribute Selector</a
+              >
+            </p>
+            <br />
+
+            <p id="navpara7">
+              <a href="combining-selectors.html" target="frame1"
+                >Combining Selectors</a
+              >
+            </p>
+            <br />
+          </td>
+          <td>
+            <iframe
+              style="background-color: rgba(247, 180, 126, 0.644)"
+              id="frame1"
+              name="frame1"
+            ></iframe>
+          </td>
+        </tr>
+      </table>
+    </nav>
+
+    <article class="article1">
+      <table border="0" width="100%" id="arttbl" cellspacing="0">
+        <tr>
+          <td>
+            <p id="artpara1">
+              <a href="hierarchies.html" target="frame1"
+                >Hirarchies of styling assignment</a
+              >
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p id="artpara2">
+              <a href="selector-syntax.html" target="frame1"
+                >Syntax to be followed</a
+              >
+            </p>
+          </td>
+        </tr>
+      </table>
+    </article>
+
+    <footer class="footer1">
+      <table border="0" width="100%" id="foottbl" cellspacing="0">
+        <tr>
+          <td>
+            <br /><br />
+            <h3 style="color: darkred" style="font-size: larger">
+              CSS can stand without HTML
+            </h3>
+            <input type="text" id="txt1" value="True" /><br /><br />
+            <input type="text" id="txt2" value="False" /><br /><br />
+            <br /><br />
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
